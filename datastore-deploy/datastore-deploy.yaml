@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: mahi7888/datastore:v4.0
+          image: mahi7888/datastore:v35.0
   replicas: 3
   selector:
     matchLabels:
